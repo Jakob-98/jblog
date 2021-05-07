@@ -116,7 +116,7 @@ const Home: FunctionComponent<Home> = ({ data }) => {
     <>
       <SEO title="Home" image="/logo.png"/>
       <Layout>
-        <FeaturePosts featurePosts={featuredPostData} />
+        {/* <FeaturePosts featurePosts={featuredPostData} /> */}
         <RecentPosts recentPosts={recentPostData} />
         <Pagination next="/page/2" />
       </Layout>
